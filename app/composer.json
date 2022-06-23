@@ -1,0 +1,28 @@
+{
+    "name": "leopoiroux/polemicbot",
+    "description": "Twitter bot.",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Léo POIROUX",
+            "email": "polemicbot@proton.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PolemicBot\\": "/app/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.4",
+        "vlucas/phpdotenv": "^5.3",
+        "noweh/twitter-api-v2-php": "^2.0"
+    },
+    "require-dev": {
+        "rector/rector": "^0.12.16"
+    }
+}
