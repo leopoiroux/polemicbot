@@ -15,12 +15,9 @@
         }
     },
     "require": {
-        "php": "^8.1",
-        "ext-curl": "*",
-        "ext-json": "*",
-        "guzzlehttp/guzzle": "^7.4",
+        "php": "^7.3|^8.1",
         "vlucas/phpdotenv": "^5.3",
-        "noweh/twitter-api-v2-php": "^2.0"
+        "coderjerk/bird-elephant": "^0.5"
     },
     "require-dev": {
         "rector/rector": "^0.12.16"

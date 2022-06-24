@@ -8,4 +8,4 @@ vendor/*
 !vendor/.gitkeep
 
 # Application
-/app/config/.env
+/config/.env

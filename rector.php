@@ -18,13 +18,13 @@ use Rector\Php55\Rector\String_\StringClassNameToClassConstantRector;
 
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->paths([
-        __DIR__ . '/app'
+        __DIR__
     ]);
 
     // is there a file you need to skip?
     $rectorConfig->skip([
-        __DIR__ . '/app/config',
-        __DIR__ . '/app/vendor',
+        __DIR__ . '/config',
+        __DIR__ . '/vendor',
         CallableThisArrayToAnonymousFunctionRector::class,
         RenameForeachValueVariableToMatchExprVariableRector::class, // Foreach single var
         ArrayThisCallToThisMethodCallRector::class, // Transform add_action + add_filter
